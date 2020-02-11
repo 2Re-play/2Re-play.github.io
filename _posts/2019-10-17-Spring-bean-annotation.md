@@ -1,17 +1,17 @@
 ---
-layout: post
+title: "Bean, Bean Scope, Spring Annotation"
 comments: true
-title:  "SPRING"
-subtitle: "Bean, Bean Scope, Spring Annotation(의존성 주입)"
-categories: KeyPoint
-tags: KeyPoint
+categories: [SPRING]
+tags: [TAG]
 author: jaehyun
-background: '/img/posts/06.jpg'
+tags: [spring]
 ---
 * content
 {:toc}
 
 ---
+
+
 
 ### Bean 이란?
 
