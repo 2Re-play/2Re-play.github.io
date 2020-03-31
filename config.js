@@ -1,28 +1,28 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
-  siteUrl: 'https://',                      // (* Required)
+  title: `Jay's Dev Blog `,                           // (* Required)
+  description: `주니어 백엔드 개발자 이재현입니다 :)`,          // (* Required)
+  author: `Jae Hyun`,                         // (* Required)
+  siteUrl: 'https://2Re-play.github.io',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
   /** Header */
-  profileImageFileName: '', // include filename extension ex.'profile.jpg'
+  profileImageFileName: 'profile.jpg', // include filename extension ex.'profile.jpg'
     // The Profile image file is located at path "./images/"
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
+  comment: '주니어 백엔드 개발자 이재현입니다 :)',
+  name: '이재현',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
+  email: 'wogusduddnjs@gmail.com',
+  website: 'https://2Re-play.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
-  github: '',                                                            // ex.'https://github.com/junhobaik'
+  github: 'https://github.com/2Re-play',                                                            // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
