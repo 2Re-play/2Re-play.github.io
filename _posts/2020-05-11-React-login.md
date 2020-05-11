@@ -33,7 +33,7 @@ src/redux/actions 디렉토리에 auth.js을 생성한다.
 redux-actions 모듈의 createAction 함수를 사용하면 좀 더 간결하고 쉽게 액션을 생성 할 수 있다.  
 creatAction으로 액션을 생성할 때 첫번째 인자는 액션 타입, 두번째 인자는 이외의 데이터를 자유롭게 객체로 넣을 수 있다.  
 
-```jsx harmony
+```js
 import { createAction } from 'redux-actions';
 
 // actions
@@ -56,7 +56,7 @@ src/redux/reducer/auth.js를 생성한다.
 위에서 3가지로 구분한 액션별로 변경될 state값을 action객체에서 받아 불변성을 유지하면 넣어주면 된다.  
 reducer를 구현할 때 switch문으로 많이들 작성하지만 redux-actions 모듈의 handleActions를 사용하게 되면 좀 더 간결한 코드를 작성할 수 있다.  
 
-```jsx harmony
+```js
 import handleActions from "redux-actions/es/handleActions"
 import {
     SIGNIN_FAIL,
@@ -112,7 +112,7 @@ src/redux/saga/authSaga.js 파일을 생성한다.
 redux-saga모듈의 call 함수를 통해 특정 함수를 비동기로 호출할 수 있다.  
 put 함수로 액션을 디스패치할 수 있다.  
 
-```jsx harmony
+```js
 import { call, put, takeEvery } from "redux-saga/effects"
 import { requestSignIn } from "../apis/auth"
 import { SIGNIN_REQUEST } from "../redux/action/auth"
@@ -142,7 +142,7 @@ export function* postsSaga() {
 ### root saga로 여러개의 saga 합치기
 src/redux/saga/index.js 파일을 생성하여 여러개의 saga를 root saga로 합쳐준다.  
 
-```jsx harmony
+```js
 import { all } from "../../node_modules/redux-saga/effects"
 import { postsSaga } from "./authSaga"
 
