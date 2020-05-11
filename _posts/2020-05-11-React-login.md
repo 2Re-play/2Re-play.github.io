@@ -26,7 +26,7 @@ react를 처음으로 입문한다면 흔하디 흔한 투두리스트, 카운�
 필자는 모두 분리 시켰다.  
 redux를 사용한다면 어떠한 변화를 일으키기 위해서는 action이라는 것을 발생시켜줘야한다.  
 액션은 하나의 객체로 표현되면 type이외의 값은 개발자 마음대로 설정할 수 있다.
-필자는 로그인을 위해 필요한 액션을 SIGNIN_REQUEST, SIGNIN_SUCCESS, SIGNIN_FAIL 3가지로 만들었다.
+필자는 로그인을 위해 필요한 액션을 `SIGNIN_REQUEST` `SIGNIN_SUCCESS` `SIGNIN_FAIL` 3가지로 만들었다.
 
 src/redux/actions 디렉토리에 auth.js을 생성한다.  
 액션 생성 함수를 직접 객체를 리턴하는 함수로 작성해도 되지만  
